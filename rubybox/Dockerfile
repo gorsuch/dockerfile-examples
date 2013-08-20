@@ -1,4 +1,5 @@
 FROM base
+MAINTAINER Michael Gorsuch <michael.gorsuch@gmail.com>
 
 RUN apt-get update
 RUN apt-get -y install build-essential git libssl-dev curl
