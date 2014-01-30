@@ -17,3 +17,4 @@ RUN rbenv install 2.0.0-p247
 ENV RBENV_VERSION 2.0.0-p247
 
 RUN gem install bundler
+RUN rbenv rehash
